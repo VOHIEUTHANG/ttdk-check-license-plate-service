@@ -1,0 +1,17 @@
+/* Copyright (c) 2022 Toriti Tech Team https://t.me/ToritiTech */
+
+module.exports = {
+  OTP_CONFIRM_STATUS: {
+    NOT_CONFIRMED: 0,
+    CONFIRMED: 1,
+    EXPIRED: 2,
+  },
+  OTP_ERROR: {
+    NOT_CONFIRMED_YET: 'NOT_CONFIRMED_YET',
+    CAN_NOT_STORE_OTP: 'CAN_NOT_STORE_OTP',
+    SEND_OTP_FAILED: 'SEND_OTP_FAILED',
+    CONFIRM_OTP_FAILED: 'CONFIRM_OTP_FAILED',
+    OTP_EXPIRED: 'OTP_EXPIRED',
+  },
+  DEFAULT_EXPIRED_MINUTE: 5, //5 minutes
+};

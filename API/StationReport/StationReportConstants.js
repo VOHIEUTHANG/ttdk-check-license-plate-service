@@ -1,0 +1,3 @@
+module.exports = {
+  STATION_REPORT_DISPLAY_DATE_FORMAT: 'YYYY/MM/DD',
+};

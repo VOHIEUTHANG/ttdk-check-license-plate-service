@@ -1,0 +1,8 @@
+-- 
+--     SELECT COUNT(customerScheduleId) as countUser, stationsName
+--     FROM CustomerSchedule 
+--     LEFT JOIN Stations ON CustomerSchedule.stationsId = Stations.stationsId
+--     WHERE CustomerSchedule.isDeleted = 0
+--     GROUP BY Stations.stationsId
+
+
